@@ -152,7 +152,7 @@ I should do it also for line detection.
 
 ####2. Detect bad fit
 
-I need a better algorithm to juge wether the fit is good (e.g. if two fit are parallel), take the confidence level (e.g. R^2) as a indication. If only one line is found with confidence, another algorithme should be designed for calculate the other line. For example, in this picture: 
+I need a better algorithm to juge wether the fit is good (e.g. if two fit are parallel), take the confidence level (e.g. R^2) as a indication. If only one line is found with confidence, another algorithme should be designed for calculate the other line. Like the case in this picture: 
 ![][one_lane_example]
 
 
