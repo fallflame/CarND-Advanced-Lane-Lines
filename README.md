@@ -18,7 +18,7 @@ The goals / steps of this project are the following:
 
 [image_undistorted]: ./output_images/undistorted.png "Undistorted"
 
-[image_binary]: ./output_images/lane_5.jpg "Binary Exampl"
+[image_binary]: ./output_images/lane_5.png "Binary Exampl"
 
 [perspective_transform_source]: ./output_images/perspective_transform_source.jpg "Perspective_transform"
 
@@ -33,7 +33,7 @@ The goals / steps of this project are the following:
 
 [video1]: ./project_video_detected.mp4 "Video"
 
-[shadow_example]: ./output_images/lane_10.jpg "Shadow Example"
+[shadow_example]: ./output_images/lane_10.png "Shadow Example"
 [one_lane_example]: ./output_images/lane_11.png "One Lane Example"
 
 
@@ -127,8 +127,8 @@ I did this in "./main.ipynb", block 30 and 31
 
 I implemented this step in block 32 and 33 in `main.ipynb`.  Here is an example of my result on a test image:
 
-![alt text][[detection_1]]
-![alt text][[detection_2]]
+![alt text][detection_1]
+![alt text][detection_2]
 
 ---
 
@@ -144,7 +144,8 @@ Here's a [link to my video result](./project_video_detected.mp4)
 
 ####1. The yellow line is no longer yellow when it is in shadow.
 
-In this image ![][shadow_example]
+In this image:
+![][shadow_example]
 
 The yellow lane in the shadow is no loger yellow. With the paint tool of Windows, I find that the line color is blue so it cannot be detected by my yellow lane detector. Our eye think the color is yellow because we do automatical white balance in our brain.
 I should do it also for line detection.
